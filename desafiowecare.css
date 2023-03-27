@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo {
+    width: 100%;
+    height: 876px;
+}
+
+.header {
+    margin: 47px 0 0 42px;
+    line-height: 21px;
+    font-weight: 400;
+
+}
+
+.link-header {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 42px 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.botao-header {
+    background: #4CB538;
+    width: 124px;
+    height: 51px;
+    border-radius: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-header:hover {
+    opacity: 0.80;
+}
+
+.botao-header:active {
+    opacity: 0.60;
+}
+
+.menu {
+    margin-top: 14%;
+    width: 100%;
+
+}
+
+.menu-direito {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 520px;
+    margin-left: 5%;
+}
+
+.menu-esquerdo {
+    position: absolute;
+    display: inline-block;
+    margin-left: 5%;
+    width: 40%;
+    height: 520px;
+    text-align: center;
+
+}
+
+h1 {
+    margin-top: 20%;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.60;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+@media screen and (max-width: 800px) {
+    .link-header {
+        display: none;
+    }
+
+    .botao-header {
+        display: block;
+        margin-left: 70%;
+        background: #4CB538;
+        width: 104px;
+        height: 49px;
+        border-radius: 16px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    /* imagem */
+    .menu-direito {
+        position: absolute;  
+        width: 100%;
+        height: 520px;
+        bottom: -100px;
+
+    }
+
+    .menu-esquerdo {
+        top: 40px;
+        width: 90%;
+        height: 520px;
+        text-align: center;
+
+    }
+
+
+    img {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 82px;
+    }
+    
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        opacity: 0.60;
+    }
+    
+    .link-menu {
+        text-decoration: none;
+        color: #6FBF44;
+        font-weight: 500;
+        font-size: 18px;
+    
+    }
+
+
+}
